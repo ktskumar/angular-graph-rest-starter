@@ -1,0 +1,24 @@
+<!-- App navigation bar markup. -->
+<header class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    Microsoft Graph Application - Sample
+  </a>
+  <div ng-show="main.isAuthenticated()" class="form-inline">
+    <div  class="mr-sm-2 text-white" >Hi, {{ main.displayName }}!</div>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="button"  ng-click="main.logout()">Disconnect</button>            
+  </div>
+  <div ng-hide="main.isAuthenticated()" class="form-inline">
+    <button class="btn btn-outline-success my-2 my-sm-0" ng-click="main.login()">Connect</button>
+  </div>
+</header>
+<!-- App main content markup. -->
+<div class="sub-header navbar navbar-dark text-white" ng-show="main.isAuthenticated()">
+  {{ main.view }}
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      
+    </div>
+  </div>
+</div>
