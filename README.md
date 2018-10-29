@@ -1,4 +1,4 @@
-# Angular-Graph-REST-Sample
+# Angular Graph REST Starter (Sample)
 
 The repo is a starter sample for buindling MS Graph API applications using angular js. And this repo sample is created on top of [Angular QuickStart](https://developer.microsoft.com/en-us/graph/get-started/angular)
 
@@ -26,3 +26,7 @@ Follow the below steps to use this sample,
 
 
 *Cheers!*
+
+- **Shantha Kumar T**
+- **@ktskumar**
+- [ktskumar.com](http://www.ktskumar.com)
